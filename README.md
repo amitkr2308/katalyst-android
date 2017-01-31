@@ -19,6 +19,7 @@
 * Services
 * Content Providers
 * Intent
+
 #### User Interface
 * View Hierarchy
 * Layout
@@ -35,6 +36,7 @@
 #### Storing & Retriving Data
 * Internal Storage
 * SQLite Database
+
 #### Services
 * Location Service
 * Internet Service
