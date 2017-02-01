@@ -52,3 +52,5 @@
 
 #### Softwares to be downloaded:
 * Android IDE (Windows 64 bit - https://dl.google.com/dl/android/studio/install/2.2.3.0/android-studio-bundle-145.3537739-windows.exe)
+* Java 8 SDK (windows) - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  
+Choose the one that suites your laptop configuration
