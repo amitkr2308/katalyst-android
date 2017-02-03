@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity
             fragmentClass = BlankFragment.class;
 
         } else if (id == R.id.nav_slideshow) {
+            fragmentClass = StoreRetrieveFragment.class;
 
         } else if (id == R.id.nav_manage) {
 

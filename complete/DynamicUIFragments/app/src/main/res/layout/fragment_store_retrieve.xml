@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dynamicuifragments.StoreRetrieveFragment"
+    android:id="@+id/storeRetrieveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/userData"
+            android:hint="Enter person name" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveButton"
+             />
+
+        <Button
+            android:text="Retrieve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/retrieveButton"
+             />
+
+        <TextView
+            android:text="Retrieved content displayed here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/retrievedContent"
+            android:layout_weight="0.97" />
+    </LinearLayout>
+
+</FrameLayout>
