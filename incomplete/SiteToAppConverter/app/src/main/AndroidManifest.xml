@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.deepti.sitetoappconverter">
 
-    <!-- Use INTERNET permission for loading URL within app -->
+    <!-- TODO Use INTERNET permission for loading URL within app -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
