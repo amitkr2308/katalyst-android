@@ -72,9 +72,13 @@ public class BlankFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_blank, container, false);
         myWebView = (WebView) view.findViewById(R.id.webView);
+
         WebSettings webSettings = myWebView.getSettings();
+
         webSettings.setJavaScriptEnabled(true);
+
         myWebView.loadUrl("http://katalystindia.org");
+
         myWebView.setWebViewClient(new WebViewClient());
         // Inflate the layout for this fragment
         return view;

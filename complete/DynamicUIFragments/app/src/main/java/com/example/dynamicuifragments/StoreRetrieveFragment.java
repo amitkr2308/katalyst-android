@@ -74,6 +74,7 @@ public class StoreRetrieveFragment extends Fragment {
         Button saveButton = (Button)view.findViewById(R.id.saveButton);
         saveButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
+
                 EditText editText = (EditText)getActivity().findViewById(R.id.userData);
                 String userData = editText.getText().toString();
                 SharedPreferences sharedPreferences = getActivity().getPreferences(Context.MODE_PRIVATE);
